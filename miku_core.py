@@ -4,11 +4,9 @@ from datetime import datetime
 import google.generativeai as genai
 from dotenv import load_dotenv
 
-# Load environment variables
 load_dotenv()
 genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
 
-# Initialize Gemini model
 model = genai.GenerativeModel("gemini-pro")
 
 def handle_command(text):
