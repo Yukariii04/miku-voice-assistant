@@ -284,7 +284,9 @@ class AssistantGUI:
                 ("en-GB", "English (UK)"),
                 ("es-ES", "Spanish"),
                 ("fr-FR", "French"),
-                ("de-DE", "German")
+                ("de-DE", "German"),
+                ("gu-GU", "Gujarati"),
+                ("hi-HU", "Hindi")
             ]
             
             text = None

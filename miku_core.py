@@ -27,13 +27,6 @@ def handle_command(text):
     elif "open calculator" in text:
         os.system("calc.exe")
         return "Opening Calculator"
-    elif "open resume" in text:
-        path = "C:/Users/YourName/Documents/resume.pdf"
-        if os.path.exists(path):
-            os.startfile(path)
-            return "Opening your resume"
-        else:
-            return "Resume file not found"
     else:
         try:
             response = model.generate_content(text)

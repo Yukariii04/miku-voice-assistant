@@ -1,6 +1,7 @@
-openai
+google-generativeai
 python-dotenv
 pillow
 pygame
 speechrecognition
 pyaudio
+gtts
